@@ -1,4 +1,4 @@
-import { Groups } from './src/screens/groups';
+import { Groups } from '@screens/groups';
 import { SafeAreaView } from 'react-native';
 
 export default function App() {
