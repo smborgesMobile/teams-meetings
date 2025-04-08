@@ -1,10 +1,14 @@
 import { Groups } from '@screens/groups';
 import { SafeAreaView } from 'react-native';
+import { ThemeProvider } from "styled-components/native";
+import theme from "./src/theme"
 
 export default function App() {
   return (
-    <SafeAreaView style={{ flex: 1 }}>
-      <Groups />
-    </SafeAreaView>
+    <ThemeProvider theme={theme}>
+      <SafeAreaView style={{ flex: 1 }}>
+        <Groups />
+      </SafeAreaView>
+    </ThemeProvider>
   );
 }

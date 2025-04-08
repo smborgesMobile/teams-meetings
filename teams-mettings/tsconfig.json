@@ -10,7 +10,6 @@
       "@hooks/*": ["./src/hooks/*"],
       "@screens/*": ["./src/screens/*"],
       "@utils/*": ["./src/utils/*"],
-      "@themes/*": ["./src/themes/*"],
       "@routes/*": ["./src/routes/*"]
     }
   }
