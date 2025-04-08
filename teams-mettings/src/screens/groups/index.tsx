@@ -1,14 +1,14 @@
 import { StyleSheet, Text, View } from "react-native";
-import { Container, Title } from "./styles";
+import * as S from "./styles";
 
 export function Groups() {
     return (
-        <Container>
+        <S.Container>
             <View>
-                <Title>
-                <Text>Groups Screen</Text>
-                </Title>
+                <S.Title>
+                    <Text>Groups Screen</Text>
+                </S.Title>
             </View>
-        </Container>
+        </S.Container>
     );
 }
