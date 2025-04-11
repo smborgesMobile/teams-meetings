@@ -835,6 +835,11 @@
   resolved "https://registry.npmjs.org/@emotion/unitless/-/unitless-0.8.1.tgz"
   integrity sha512-KOEGMu6dmJZtpadb476IsZBclKvILjopjUii3V+7MnXIQCYh8W3NgNcgwo21n9LXZX6EDIKvqfjYxXebDwxKmQ==
 
+"@expo-google-fonts/roboto@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.npmjs.org/@expo-google-fonts/roboto/-/roboto-0.3.0.tgz"
+  integrity sha512-+/cmb6N/NDsFanV469ri52C/kz0QWYWnNBi9miKLSlTVpA3EJeLro3mmBxmZxH/N9PRRpoFZ6+dmwkOxh/jbZg==
+
 "@expo/bunyan@^4.0.0":
   version "4.0.1"
   resolved "https://registry.npmjs.org/@expo/bunyan/-/bunyan-4.0.1.tgz"
@@ -2920,7 +2925,7 @@ expo-file-system@~18.0.12:
   dependencies:
     web-streams-polyfill "^3.3.2"
 
-expo-font@~13.0.4:
+expo-font@^13.0.4, expo-font@~13.0.4:
   version "13.0.4"
   resolved "https://registry.npmjs.org/expo-font/-/expo-font-13.0.4.tgz"
   integrity sha512-eAP5hyBgC8gafFtprsz0HMaB795qZfgJWqTmU0NfbSin1wUuVySFMEPMOrTkTgmazU73v4Cb4x7p86jY1XXYUw==
