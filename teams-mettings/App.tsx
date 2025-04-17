@@ -1,6 +1,6 @@
 import { Loading } from '@components/loading';
 import { Groups } from '@screens/groups';
-import { SafeAreaView } from 'react-native';
+import { SafeAreaView, StatusBar } from 'react-native';
 import { ThemeProvider } from 'styled-components/native';
 import theme from './src/theme';
 
@@ -16,7 +16,15 @@ export default function App() {
 
   return (
     <ThemeProvider theme={theme}>
-      <SafeAreaView style={{ flex: 1 }}>
+      <SafeAreaView style={{
+        flex: 1,
+        backgroundColor: theme.COLORS.GRAY_600
+      }}>
+        <StatusBar
+          barStyle="light-content"
+          backgroundColor="transparent"
+          translucent
+        />
         {!fontsLoaded ?
           <Groups /> :
           <Loading />
