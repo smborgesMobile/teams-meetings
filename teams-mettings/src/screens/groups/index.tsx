@@ -1,14 +1,7 @@
-import { StyleSheet, Text, View } from "react-native";
-import * as S from "./styles";
+import { Header } from "@/src/components/header";
 
 export function Groups() {
     return (
-        <S.Container>
-            <View>
-                <S.Title>
-                    <Text>Groups Screen</Text>
-                </S.Title>
-            </View>
-        </S.Container>
+        <Header />
     );
 }

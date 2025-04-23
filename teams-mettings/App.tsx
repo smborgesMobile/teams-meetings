@@ -1,8 +1,9 @@
-import { Loading } from '@components/loading';
-import { Groups } from '@screens/groups';
 import { SafeAreaView, StatusBar } from 'react-native';
 import { ThemeProvider } from 'styled-components/native';
+import { Groups} from "./src/screens/groups"
+import { Loading} from "./src/components/loading"
 import theme from './src/theme';
+
 
 import { Roboto_400Regular, Roboto_700Bold, useFonts } from "@expo-google-fonts/roboto";
 
@@ -25,7 +26,7 @@ export default function App() {
           backgroundColor="transparent"
           translucent
         />
-        {!fontsLoaded ?
+        {fontsLoaded ?
           <Groups /> :
           <Loading />
         }
