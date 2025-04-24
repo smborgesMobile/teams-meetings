@@ -18,16 +18,16 @@ export const BackButton = Styled.TouchableOpacity`
     margin-start: 16px;
 `;
 
-const LogoContainer = Styled.View`
+export const LogoContainer = Styled.View`
     flex: 1;
     justify-content: center;
 `;
 
-const LogoCenter = Styled(LogoContainer)`
+export const LogoCenter = Styled(LogoContainer)`
     align-items: center;
 `;
 
-const LogoRight = Styled(LogoContainer)`
+export const LogoRight = Styled(LogoContainer)`
     align-items: flex-end;
     margin-end: 16px;
 `;
