@@ -5,6 +5,7 @@ import { Container } from "./styles"
 import { useState } from "react";
 import { FlatList } from "react-native";
 import { EmptyState } from "@/src/components/emptystate";
+import { Button } from "@/src/components/button";
 
 export function Groups() {
     const [groups, setGroups] = useState<string[]>([
@@ -25,6 +26,11 @@ export function Groups() {
                         title={item}
                         onPress={() => { console.log(item) }} />
                 )}
+            />
+            <Button
+                title="Criar nova turma"
+                buttonType="PRIMARY"
+                onPress={() => { console.log("Criar nova turma") }}
             />
         </Container>
     );
