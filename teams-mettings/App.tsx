@@ -19,7 +19,7 @@ export default function App() {
     <ThemeProvider theme={theme}>
       <SafeAreaView style={{
         flex: 1,
-        backgroundColor: theme.COLORS.GRAY_600
+        backgroundColor: theme.COLORS.GRAY_700
       }}>
         <StatusBar
           barStyle="light-content"
