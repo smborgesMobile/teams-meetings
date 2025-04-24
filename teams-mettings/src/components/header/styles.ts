@@ -14,8 +14,7 @@ export const Logo = Styled.Image`
 
 export const BackButton = Styled.TouchableOpacity`
     position: absolute;
-    left: 0;
-    margin-start: 16px;
+    left: 0
 `;
 
 export const LogoContainer = Styled.View`
@@ -28,6 +27,5 @@ export const LogoCenter = Styled(LogoContainer)`
 `;
 
 export const LogoRight = Styled(LogoContainer)`
-    align-items: flex-end;
-    margin-end: 16px;
+    align-items: flex-end
 `;
