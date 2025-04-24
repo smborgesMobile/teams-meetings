@@ -1,7 +1,7 @@
 import { SafeAreaView, StatusBar } from 'react-native';
 import { ThemeProvider } from 'styled-components/native';
-import { Groups} from "./src/screens/groups"
-import { Loading} from "./src/components/loading"
+import { Groups } from "./src/screens/groups"
+import { Loading } from "./src/components/loading"
 import theme from './src/theme';
 
 
