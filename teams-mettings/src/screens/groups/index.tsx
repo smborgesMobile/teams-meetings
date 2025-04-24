@@ -4,12 +4,11 @@ import { GroupCard } from "@/src/components/groupcard";
 import { Container } from "./styles"
 import { useState } from "react";
 import { FlatList } from "react-native";
+import { EmptyState } from "@/src/components/emptystate";
 
 export function Groups() {
     const [groups, setGroups] = useState<string[]>([
-        "Rocket Seat",
-        "Galera do Ignite",
-        "Turma do React Native"]);
+    ]);
 
     return (
         <Container>
@@ -20,6 +19,7 @@ export function Groups() {
             <FlatList
                 data={groups}
                 keyExtractor={item => item}
+                ListEmptyComponent={<EmptyState title="Ainda não existem turmas cadastradas. Que tal criar sua primeira turma?" />}
                 renderItem={({ item }) => (
                     <GroupCard
                         title={item}
